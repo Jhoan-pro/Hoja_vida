@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+ display: flex;
+ width: 100%;
+}
+/* Izquierda */
+.Infromacion_personal{
+width: 30%;
+background-color: rgb(112, 216, 230);
+padding: 20px;
+}
+.foto_personal{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.foto_personal img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.Infromacion_personal h2 {
+    background-color: rgb(60, 47, 235);
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 20PX;
+
+}
+
+.Infromacion_personal p {
+    font-size: 16px;
+}
+/* Derehca */
+
+.Infromacion_Profecional  {
+    width: 70%;
+    padding: 30px;
+}
+
+.Perfil_Profecional H1  {
+ width: 32px;
+ color: rgb(60, 47, 235);
+}
+
+.Perfil_Profecional H3  {
+margin-top: -10px;
+ color: rgb(92, 83, 218);
+}
+
+.Perfil_Profecional H2 {
+    background-color: rgb(60, 47, 235);
+    color: white;
+    padding: 5px;
+    font-size: 26px;
+    margin-top: 2Opx;
+   border-radius: 20PX;
+   width:150px;
+   
+}
+
+.Perfil_Profecional P  {
+font-size: 14px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+
