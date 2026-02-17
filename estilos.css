@@ -47,11 +47,13 @@ margin-bottom: 20px;
 .Perfil_Profecional H1  {
  width: 32px;
  color: rgb(0, 0, 0);
+ padding-left: 20px;
 }
 
 .Perfil_Profecional H3  {
 margin-top: -10px;
  color: rgb(0, 0, 0);
+ padding-left: 20px;
 }
 
 .Perfil_Profecional H2 {
@@ -63,15 +65,18 @@ margin-top: -10px;
    border-radius: 20PX;
    display: inline-block;
    
+   
 }
 
 .Perfil_Profecional P  {
-font-size: clamp(14px, 2.5vw, 22px);
+font-size: clamp(15px, 2.5vw, 22px);
+padding-left: 20px;
 
 }
 
 ul {
-    padding-left: 20px;
+    padding-left: 25px;
+    
 } 
 
 
