@@ -12,6 +12,7 @@ body {
 width: 30%;
 background-color: rgb(196, 218, 221);
 padding: 20px;
+
 }
 .foto_personal{
 text-align: center;
@@ -36,6 +37,7 @@ margin-bottom: 20px;
 
 .Infromacion_personal p {
     font-size: clamp(14px, 2.5vw, 22px);
+    overflow: auto; 
 }
 /* Derecha */
 
