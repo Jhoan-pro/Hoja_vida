@@ -10,7 +10,7 @@ body {
 /* Izquierda */
 .Infromacion_personal{
 width: 30%;
-background-color: rgb(112, 216, 230);
+background-color: rgb(196, 218, 221);
 padding: 20px;
 }
 .foto_personal{
@@ -25,18 +25,19 @@ margin-bottom: 20px;
 }
 
 .Infromacion_personal h2 {
-    background-color: rgb(60, 47, 235);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 5px;
     font-size: 16px;
     border-radius: 20PX;
+    display: inline-block;
 
 }
 
 .Infromacion_personal p {
-    font-size: 16px;
+    font-size: clamp(14px, 2.5vw, 22px);
 }
-/* Derehca */
+/* Derecha */
 
 .Infromacion_Profecional  {
     width: 70%;
@@ -45,31 +46,32 @@ margin-bottom: 20px;
 
 .Perfil_Profecional H1  {
  width: 32px;
- color: rgb(60, 47, 235);
+ color: rgb(0, 0, 0);
 }
 
 .Perfil_Profecional H3  {
 margin-top: -10px;
- color: rgb(92, 83, 218);
+ color: rgb(0, 0, 0);
 }
 
 .Perfil_Profecional H2 {
-    background-color: rgb(60, 47, 235);
-    color: white;
+    background-color:  rgb(196, 218, 221);
+    color: rgb(29, 28, 28);
     padding: 5px;
     font-size: 26px;
     margin-top: 2Opx;
    border-radius: 20PX;
-   width:150px;
+   display: inline-block;
    
 }
 
 .Perfil_Profecional P  {
-font-size: 14px;
+font-size: clamp(14px, 2.5vw, 22px);
+
 }
 
 ul {
     padding-left: 20px;
-}
+} 
 
 
