@@ -20,24 +20,28 @@ margin-bottom: 20px;
 }
 
 .foto_personal img{
-    width: 150px;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
+    
 }
 
 .Infromacion_personal h2 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 5px;
-    font-size: 16px;
+    font-size: clamp(14px, 2.5vw, 18px);
     border-radius: 20PX;
-    display: inline-block;
+    display: block;
+    word-wrap: break-word;
+    
 
 }
 
 .Infromacion_personal p {
     font-size: clamp(14px, 2.5vw, 22px);
     overflow: auto; 
+    line-height: 1.6;
 }
 /* Derecha */
 
