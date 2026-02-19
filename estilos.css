@@ -70,6 +70,7 @@ body {
     padding: 8px;
     border-radius: 20px;
     display: inline-block;
+    border-buttom: 3px solid black;
 }
 
 .seccion p {
